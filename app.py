@@ -80,7 +80,7 @@ if predict_button:
     # Make prediction
     prediction = model.predict(input_data)[0]
 
-    st.success(f"The predicted salary is: ${prediction:,.2f}")
+    st.success(f"The predicted salary is: INR{prediction:,.2f}")
 else:
     st.info("Adjust the input features in the sidebar and click 'Predict Salary'.")
 

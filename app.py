@@ -84,11 +84,3 @@ if predict_button:
 else:
     st.info("Adjust the input features in the sidebar and click 'Predict Salary'.")
 
-
-%%writefile requirements.txt
-streamlit
-pandas
-scikit-learn
-numpy
-matplotlib
-seaborn
